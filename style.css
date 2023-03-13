@@ -1,0 +1,34 @@
+#body{
+    display: grid;
+    grid-template-rows: 30vh 70vh;
+    grid-template-columns: 100%;
+    grid-template-areas: "kandydaci" 
+    "glosowanie";
+    margin: 0%;
+}
+#kandydaci{
+grid-area: kandydaci;
+background-color: grey;
+
+}
+#glosowanie{
+grid-area: glosowanie;
+background-color: dimgray;
+}
+input{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+#napis{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}

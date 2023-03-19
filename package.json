@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "chart.js": "^4.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "name": "glosowanie",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radzik69/glosowanie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radzik69/glosowanie/issues"
+  },
+  "homepage": "https://github.com/Radzik69/glosowanie#readme",
+  "devDependencies": {},
+  "description": ""
+}

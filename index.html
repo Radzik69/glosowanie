@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="client.js"></script>
 </head>
+
 <body id="body">
     <div id="kandydaci">
-    <button id="kandydant1">kandydant nr 1</button>
-    <button id="kandydant2">kandydant nr 2</button>
-    <button id="kandydant3">kandydant nr 3</button>
+        <button id="kandydant1" onclick="wybor1(),kandydatWybrany()">kandydant nr 1</button>
+        <button id="kandydant2" onclick="wybor2(),kandydatWybrany()">kandydant nr 2</button>
+        <button id="kandydant3" onclick="wybor3(),kandydatWybrany()">kandydant nr 3</button>
     </div>
-    
-    <div id="glosowanie">
-        <input id="pesel" placeholder="pesel" onchange="spelnionewymagania()">
-        <input id="imie" placeholder="imie" onchange="spelnionewymagania()">
-        <input id="nazwisko" placeholder="nazwisko" onchange="spelnionewymagania()">
-        <input id="wiek" placeholder="wiek" onchange="spelnionewymagania()" >
-       
-        
-    </div>
-    <script src="script.js"></script>
+    <form action="/add" id="formularz">
+        <div id="glosowanie">
+        </div>
+    </form>
 </body>
+
 </html>

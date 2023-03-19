@@ -2,8 +2,7 @@
     display: grid;
     grid-template-rows: 30vh 70vh;
     grid-template-columns: 100%;
-    grid-template-areas: "kandydaci" 
-    "glosowanie";
+    grid-template-areas: "kandydaci" "glosowanie";
     margin: 0%;
 }
 #kandydaci{
@@ -13,11 +12,23 @@ background-color: grey;
 }
 #glosowanie{
 grid-area: glosowanie;
+height: 678px;
 background-color: dimgray;
 }
 input{
     background-color: black;
     color: white;
+    height: 80px;
+    width: 240px;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+a{
+    color: white;
+    font-size: 20px;
 }
 button{
     background-color: black;
@@ -30,5 +41,51 @@ button{
     font-size: 100px;
     text-align: center;
     position: relative;
-    top: 200px;
+    /* top: 200px; */
+}
+#kandydant1{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#kandydant2{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#kandydant3{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#send{
+    background-color: black;
+    height: 160px;
+    width: 480px;
+    font-size: 70px;
+}
+#info{
+    height: 100px;
+    width: 850px;
+    font-size: 60px;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+#Chart{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
 }

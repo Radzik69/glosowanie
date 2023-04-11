@@ -52,8 +52,14 @@ function spelnionewymagania() {
     var wiek = document.getElementById("wiek")
     var glosowanie = document.getElementById("glosowanie")
 
+    pesel.setAttribute("type","disabled")
     if (pesel.value != "" && imie.value != "" && nazwisko.value != "" && wiek.value != ""
     ) {
+        pesel.readOnly = true
+        imie.readOnly = true
+        nazwisko.readOnly = true
+        wiek.readOnly = true
+
         var form = document.getElementById("formularz");
         var submit = document.createElement("input")
         submit.setAttribute("id", "send")

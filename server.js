@@ -1,4 +1,4 @@
-//nazwa bazy danych:glosowanie      nazwa tabeli:glosujacy:   w srodku:     pesel:int(11znakow)     imie:text(20znakow)     nazwisko:text(30znakow)     wiek:int(3znaki)       kandydat
+//nazwa bazy danych:glosowanie      nazwa tabeli:glosujacy:   w srodku:     pesel:varchar(11znakow)     imie:text(20znakow)     nazwisko:text(30znakow)     wiek:int(3znaki)       kandydat
 
 const express = require('express')
 const cors = require('cors')
@@ -12,7 +12,7 @@ var con = mysql.createConnection({
   host: "localhost",
   user: "root",
   passworld: "",
-  database: "glosowanie",
+  database: "glosowanie"
 })
 
 con.connect(function (err) {
